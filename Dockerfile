@@ -1,6 +1,6 @@
 FROM openjdk
 
-COPY target/*.jar /
+COPY . .
 
 EXPOSE 8080
 
